@@ -58,7 +58,7 @@ export default function BelovedWifeCard() {
                 ) : answer === 'no' ? (
                   <p className="text-lg font-bold text-red-600 animate-bounce">Say yes! 😡</p>
                 ) : (
-                  <div className="fixed inset-0 bg-pink-100/95 flex items-center justify-center z-50 p-6 text-center">
+                  <div className="fixed inset-0 bg-pink-100/95 flex items-center justify-center z-50 p-6 text-center"> 
                     <h1 className="text-3xl md:text-6xl font-bold text-pink-600" style={{ color: 'black' }}>I love you more than everything in this world Habibti 💍❤️</h1>
                   </div>
                 )}
