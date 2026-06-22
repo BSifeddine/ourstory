@@ -24,7 +24,7 @@ export default function BelovedWifeCard() {
     <div className="min-h-screen bg-pink-100 flex items-center justify-center p-2 sm:p-4 font-serif text-pink-900">
       <div className="max-w-4xl w-full bg-white/60 backdrop-blur-lg rounded-3xl shadow-2xl p-4 sm:p-8 flex flex-col md:flex-row gap-6 border border-white/50">
         
-        {/* Sidebar Navigation - Horizontal on mobile, vertical on desktop */}
+        {/* Sidebar Navigation */}
         <div className="flex md:flex-col gap-3 overflow-x-auto pb-2 md:pb-0 md:justify-start">
           {stepsData.map((step) => (
             <div key={step.id} className="flex flex-col items-center gap-1 cursor-pointer min-w-[60px]" onClick={() => setCurrentStep(step.id)}>
@@ -78,12 +78,12 @@ export default function BelovedWifeCard() {
 
         {/* Right Info Section */}
         <div className="w-full md:w-32 border-t md:border-t-0 md:border-l border-pink-200 pt-4 md:pt-0 flex flex-col items-center text-center">
-          <p className="text-[10px] uppercase tracking-widest mb-2 text-black">Our Journey</p>
+          <p className="text-[10px] uppercase tracking-widest mb-2 text-black font-bold">Our Journey</p>
           <div className="w-12 h-12 rounded-full bg-pink-200 mb-2 overflow-hidden">
             <img src="/me.jpg" alt="Husband" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-sm text-black">Sifeddine Bouaoua</p>
-          <p className="italic text-xs mt-1">Your Husband</p>
+          <p className="italic text-xs mt-1 text-black">Your Husband</p>
         </div>
       </div>
     </div>
