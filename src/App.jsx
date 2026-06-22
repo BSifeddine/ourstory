@@ -83,7 +83,7 @@ export default function BelovedWifeCard() {
             <img src="/me.jpg" alt="Husband" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-sm text-black">Sifeddine Bouaoua</p>
-          <p className="italic text-xs mt-1 text-pink-500">Your Husband</p>
+          <p className="italic text-xs mt-1 text-pink-500">Your Husband</p> 
         </div>
       </div>
     </div>
