@@ -26,7 +26,7 @@ export default function BelovedWifeCard() {
         
         {/* Mobile-Optimized Header */}
         <div className="text-center">
-            <h1 className="text-2xl sm:text-3xl text-black">To My Beloved Wife</h1>
+            <h1 className="text-2xl sm:text-3xl font-serif text-black" style={color="black"}>To My Beloved Wife</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-6">
