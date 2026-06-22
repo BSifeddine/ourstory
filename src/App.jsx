@@ -46,7 +46,7 @@ export default function BelovedWifeCard() {
 
           <div className="bg-white/40 p-4 sm:p-8 rounded-2xl shadow-inner w-full">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-black">{currentData.title}</h2>
-            <p className="text-pink-900 leading-relaxed font-serif mb-6 text-sm sm:text-base">{currentData.content}</p>
+            <p className="text-pink-900 leading-relaxed font-serif mb-6 text-sm sm:text-base text-red-900">{currentData.content}</p>
             
             {currentStep === 7 && (
               <div className="flex flex-col items-center gap-4 mt-6">
