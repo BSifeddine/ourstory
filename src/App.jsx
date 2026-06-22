@@ -75,7 +75,7 @@ export default function BelovedWifeCard() {
       </p>
     ) : (
       <div className="fixed inset-0 bg-pink-100/90 flex items-center justify-center z-50 p-6 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-pink-600 font-cursive">
+        <h1 className="text-4xl md:text-6xl font-bold text-rose-600 font-cursive">
           I love you more than everything in this world Habibti 💍❤️
         </h1>
       </div>
