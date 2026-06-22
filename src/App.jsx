@@ -38,7 +38,7 @@ export default function BelovedWifeCard() {
 
         {/* Main Content Area */}
         <div className="flex-grow flex flex-col items-center text-center">
-          <h1 className="text-2xl sm:text-3xl font-serif mb-4 text-black font-bold" style={{ color: 'black' }}>To My Beloved Wife</h1>
+          <h1 className="text-2xl sm:text-3xl font-serif mb-4 text-black font-bold" style={{ color: 'red' }}>To My Beloved Wife</h1>
           
           <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-pink-200 overflow-hidden mb-4 shadow-lg">
             <img src="/bears.jfif" alt="Bears" className="w-full h-full object-cover" />
