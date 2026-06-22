@@ -38,7 +38,7 @@ useEffect(() => {
       <div className="max-w-4xl w-full bg-white/60 backdrop-blur-lg rounded-3xl shadow-2xl p-4 sm:p-8 flex flex-col md:flex-row gap-6 border border-white/50">
 
         {/* Main Content Area */}
-        <div className="flex-grow flex flex-col items-center text-center">
+        <div className="flex-grow flex flex-col items-center text-center"> 
           <h1 className="text-2xl sm:text-3xl font-serif mb-4 text-black font-bold" style={{ color: 'black' }}>To My Beloved Wife</h1>
           
           <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-pink-200 overflow-hidden mb-4 shadow-lg">
