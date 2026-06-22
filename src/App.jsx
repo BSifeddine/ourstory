@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const stepsData = [
   { id: 1, title: "Welcome My Lovely Manel", content: "I wanted to create this little gift for you to show you how much i love you and how much you mean to me." },
@@ -14,6 +14,13 @@ export default function BelovedWifeCard() {
   const [currentStep, setCurrentStep] = useState(1);
   const currentData = stepsData.find(s => s.id === currentStep);
   const [answer, setAnswer] = useState(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    if (containerRef.current) {
+      containerRef.current.scrollTop = 0;
+    }
+  }, [currentStep]);
 
   const handleNoClick = () => {
     setAnswer('no');
