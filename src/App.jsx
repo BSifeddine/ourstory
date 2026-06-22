@@ -45,7 +45,7 @@ export default function BelovedWifeCard() {
           </div>
 
           <div className="bg-white/40 p-4 sm:p-8 rounded-2xl shadow-inner w-full">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4" style={{ color: '#f21b6a' }}>{currentData.title}</h2> 
+            <h2 className="text-xl sm:text-2xl font-semibold mb-4" style={{ color: '#f21b6a' }}>{currentData.title}</h2>  
             <p className="text-pink-900 leading-relaxed font-serif mb-6 text-sm sm:text-base" style={{ color: 'black' }}>{currentData.content}</p>
             
             {currentStep === 7 && (
