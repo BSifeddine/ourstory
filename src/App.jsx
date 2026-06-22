@@ -36,18 +36,6 @@ useEffect(() => {
   return (
     <div className="min-h-screen bg-pink-100 flex items-center justify-center p-2 sm:p-4 font-serif text-pink-900">
       <div className="max-w-4xl w-full bg-white/60 backdrop-blur-lg rounded-3xl shadow-2xl p-4 sm:p-8 flex flex-col md:flex-row gap-6 border border-white/50">
-        
-        {/* Sidebar Navigation */}
-        <div className="flex md:flex-col gap-3 overflow-x-auto pb-2 md:pb-0 md:justify-start">
-          {stepsData.map((step) => (
-            <div key={step.id} className="flex flex-col items-center gap-1 cursor-pointer min-w-[60px]" onClick={() => setCurrentStep(step.id)}>
-              <div className={`p-2 rounded-full transition-all ${currentStep === step.id ? 'bg-pink-300 scale-110' : 'hover:bg-pink-200'}`}>
-                🐻
-              </div>
-              <span className="text-[10px] font-bold text-black text-center whitespace-nowrap">Step {step.id}</span>
-            </div>
-          ))}
-        </div>
 
         {/* Main Content Area */}
         <div className="flex-grow flex flex-col items-center text-center">
