@@ -38,7 +38,7 @@ export default function BelovedWifeCard() {
 
         {/* Main Content Area */}
         <div className="flex-grow flex flex-col items-center text-center">
-          <h1 className="text-2xl sm:text-3xl font-serif mb-4 text-black font-bold" style={{ color: 'red' }}>To My Beloved Wife</h1>
+          <h1 className="text-2xl sm:text-3xl font-serif mb-4 text-black font-bold" style={{ color: 'black' }}>To My Beloved Wife</h1>
           
           <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-pink-200 overflow-hidden mb-4 shadow-lg">
             <img src="/bears.jfif" alt="Bears" className="w-full h-full object-cover" />
@@ -46,7 +46,7 @@ export default function BelovedWifeCard() {
 
           <div className="bg-white/40 p-4 sm:p-8 rounded-2xl shadow-inner w-full">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-black">{currentData.title}</h2>
-            <p className="text-pink-900 leading-relaxed font-serif mb-6 text-sm sm:text-base text-red-900">{currentData.content}</p>
+            <p className="text-pink-900 leading-relaxed font-serif mb-6 text-sm sm:text-base" style={{ color: 'black' }}>{currentData.content}</p>
             
             {currentStep === 7 && (
               <div className="flex flex-col items-center gap-4 mt-6">
@@ -59,7 +59,7 @@ export default function BelovedWifeCard() {
                   <p className="text-lg font-bold text-red-600 animate-bounce">Say yes! 😡</p>
                 ) : (
                   <div className="fixed inset-0 bg-pink-100/95 flex items-center justify-center z-50 p-6 text-center">
-                    <h1 className="text-3xl md:text-6xl font-bold text-pink-600">I love you more than everything in this world Habibti 💍❤️</h1>
+                    <h1 className="text-3xl md:text-6xl font-bold text-pink-600" style={{ color: 'black' }}>I love you more than everything in this world Habibti 💍❤️</h1>
                   </div>
                 )}
               </div>
@@ -78,12 +78,12 @@ export default function BelovedWifeCard() {
 
         {/* Right Info Section */}
         <div className="w-full md:w-32 border-t md:border-t-0 md:border-l border-pink-200 pt-4 md:pt-0 flex flex-col items-center text-center">
-          <p className="text-[10px] uppercase tracking-widest mb-2 text-black font-bold">Our Journey</p>
+          <p className="text-[10px] uppercase tracking-widest mb-2 text-pink-500 font-bold">Our Story</p>
           <div className="w-12 h-12 rounded-full bg-pink-200 mb-2 overflow-hidden">
             <img src="/me.jpg" alt="Husband" className="w-full h-full object-cover" />
           </div>
           <p className="font-bold text-sm text-black">Sifeddine Bouaoua</p>
-          <p className="italic text-xs mt-1 text-black">Your Husband</p>
+          <p className="italic text-xs mt-1 text-pink-500">Your Husband</p>
         </div>
       </div>
     </div>
