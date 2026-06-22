@@ -16,10 +16,16 @@ export default function BelovedWifeCard() {
   const [answer, setAnswer] = useState(null);
   const containerRef = useRef(null);
 
-  useEffect(() => {
+useEffect(() => {
+    // 1. Try to scroll the container itself (most likely solution)
     if (containerRef.current) {
-      containerRef.current.scrollTop = 0;
+      containerRef.current.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
+    // 2. Fallback: Scroll the actual browser window
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentStep]);
 
   const handleNoClick = () => {
