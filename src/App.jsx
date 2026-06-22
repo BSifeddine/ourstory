@@ -17,7 +17,7 @@ export default function BelovedWifeCard() {
   const containerRef = useRef(null);
 
 useEffect(() => {
-    // 1. Try to scroll the container itself (most likely solution)
+    // 1. Try to scroll the container itself (most likely solution) 
     if (containerRef.current) {
       containerRef.current.scrollTo({
         top: 0,
